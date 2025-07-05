@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
+        <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .recipe-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .recipe-card { width: 200px; text-align: center; }
+        .recipe-img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; }
+    </style>
 </head>
 <body>
-    <h1> Odin Recipes</h1>
-    <p>Welcome to our kitchen! Here you'll find our favorite recipes to share.</p>
+    <!-- <h1> Odin Recipes</h1> 
+         <p>Welcome to our kitchen! Here you'll find our favorite recipes to share.</p>
     <h2>Our Recipes:</h2>
     <ul>
         <li><a href="recipes/Absolutely Ultimate Potato Soup.html">Absolutely Ultimate Potato Soup</a></li>
@@ -15,7 +21,43 @@
         <li><a href="recipes/Easy Mediterranean Baked Chicken Breast.html">Easy Mediterranean Baked Chicken Breast</a></li>
         <li><a href="recipes/Italian Tiramisu.html">Italian Tiramisu</a></li>
     </ul>
-    
+     -->
+        <h1>Odin Recipes</h1>
+    <p>Welcome to our kitchen! Here you'll find our favorite recipes to share.</p>
+
+    <div class="recipe-grid">
+        <!-- Potato Soup -->
+        <div class="recipe-card">
+            <a href="recipes/Absolutely Ultimate Potato Soup.html">
+                <img src="images/potato-soup.jpg" alt="Creamy Potato Soup" class="recipe-img">
+                <p>Absolutely Ultimate Potato Soup</p>
+            </a>
+        </div>
+
+        <!-- Chicken Costoletta -->
+        <div class="recipe-card">
+            <a href="recipes/Copycat Chicken Costoletta.html">
+                <img src="images/chicken-costoletta.jpg" alt="Crispy Chicken" class="recipe-img">
+                <p>Copycat Chicken Costoletta</p>
+            </a>
+        </div>
+
+        <!-- Mediterranean Chicken -->
+        <div class="recipe-card">
+            <a href="recipes/Easy Mediterranean Baked Chicken Breast.html">
+                <img src="images/mediterranean-chicken.jpg" alt="Herbed Chicken" class="recipe-img">
+                <p>Mediterranean Baked Chicken</p>
+            </a>
+        </div>
+
+        <!-- Tiramisu -->
+        <div class="recipe-card">
+            <a href="recipes/Italian Tiramisu.html">
+                <img src="images/Italian Tiramisu.jpg" alt="Italian Tiramisu" class="recipe-img">
+                <p>Italian Tiramisu</p>
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>
