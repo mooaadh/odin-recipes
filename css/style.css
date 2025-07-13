@@ -1,0 +1,54 @@
+        
+        body { font-family: Arial, sans-serif;
+             max-width: 800px;
+              margin: 0 auto;
+               padding: 10px;
+               background-image: url(/images/odin\ recipes\ .png);     
+               background-size: cover;    
+               background-position: center;   
+               background-repeat: no-repeat;  
+               background-attachment: fixed;
+             }
+        .title,
+        #wlc {
+            text-align: center;
+            background-color: rgba(112, 112, 109, 0.432);
+            border-radius: 50px;
+            padding: 2%;
+            font-family: "Brush Script MT", cursive  ;
+        }
+        #odin-pic{
+            width: auto;
+            height: 500px;
+        }
+        #wlc{
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .recipe-grid { display: flex;
+             flex-wrap: wrap;
+              gap: 20px;
+               justify-content: center; 
+               margin-top: 100px;
+            }
+        .recipe-card { width: 200px;
+             text-align: center;
+             }
+        .recipe-name {
+            background-color: rgba(235, 235, 226, 0.507);
+            margin-top: 0;
+            border-radius: 50px;
+            padding: 5%;
+        }
+        .recipe-img { width: 100%;
+             height: 150px;
+             object-fit: cover;
+             border-radius: 50px; }
+        .recipe--img { width: 100%;
+             height: 300px;
+             object-fit: cover;
+             border-radius: 8px; }
+        #potato{
+            margin-left: 10px;
+        }
+    

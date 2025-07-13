@@ -4,63 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
-        <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .recipe-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
-        .recipe-card { width: 200px; text-align: center; }
-        .recipe-img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; }
-        .recipe--img { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- <h1> Odin Recipes</h1> 
-         <p>Welcome to our kitchen! Here you'll find our favorite recipes to share.</p>
-    <h2>Our Recipes:</h2>
-    <ul>
-        <li><a href="recipes/Absolutely Ultimate Potato Soup.html">Absolutely Ultimate Potato Soup</a></li>
-        <li><a href="recipes/Copycat Chicken Costoletta.html">Copycat Chicken Costoletta</a> </li>
-        <li><a href="recipes/Easy Mediterranean Baked Chicken Breast.html">Easy Mediterranean Baked Chicken Breast</a></li>
-        <li><a href="recipes/Italian Tiramisu.html">Italian Tiramisu</a></li>
-    </ul>
-     -->
-        <h1>Odin Recipes</h1>
-                <div class="recipe-card">
-                <img src="images/odin recipes .png" alt="Le chef viking et son festin" class="recipe--img">
-                <p>Welcome to our kitchen! Here you'll find our favorite recipes to share.</p>
-            
-        </div>
+        <h1 class="title">Odin Recipes</h1>
+                <div>
+                <p id="wlc">Welcome to our kitchen! Here you'll find our favorite recipes to share.</p>          
+                </div>
         
 
     <div class="recipe-grid">
         <!-- Potato Soup -->
-        <div class="recipe-card">
+        <div id="potato" class="recipe-card">
             <a href="recipes/Absolutely Ultimate Potato Soup.html">
                 <img src="images/potato-soup.jpg" alt="Creamy Potato Soup" class="recipe-img">
-                <p>Absolutely Ultimate Potato Soup</p>
+                <p class="recipe-name">Absolutely Ultimate Potato Soup</p>
             </a>
         </div>
 
         <!-- Chicken Costoletta -->
-        <div class="recipe-card">
+        <div id="chik" class="recipe-card">
             <a href="recipes/Copycat Chicken Costoletta.html">
                 <img src="images/chicken-costoletta.jpg" alt="Crispy Chicken" class="recipe-img">
-                <p>Copycat Chicken Costoletta</p>
+                <p class="recipe-name">Copycat Chicken Costoletta</p>
             </a>
         </div>
 
         <!-- Mediterranean Chicken -->
-        <div class="recipe-card">
+        <div id="med" class="recipe-card">
             <a href="recipes/Easy Mediterranean Baked Chicken Breast.html">
                 <img src="images/mediterranean-chicken.jpg" alt="Herbed Chicken" class="recipe-img">
-                <p>Mediterranean Baked Chicken</p>
+                <p class="recipe-name">Mediterranean Baked Chicken</p>
             </a>
         </div>
 
         <!-- Tiramisu -->
-        <div class="recipe-card">
+        <div id="tira" class="recipe-card">
             <a href="recipes/Italian Tiramisu.html">
                 <img src="images/Italian Tiramisu.jpg" alt="Italian Tiramisu" class="recipe-img">
-                <p>Italian Tiramisu</p>
+                <p class="recipe-name">Italian Tiramisu</p>
             </a>
         </div>
     </div>
